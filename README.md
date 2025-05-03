@@ -1,50 +1,34 @@
-# React + TypeScript + Vite
+# Ignite Feed
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Ignite Feed](https://img.shields.io/badge/status-active-brightgreen) 
 
-Currently, two official plugins are available:
+O **Ignite Feed** é um projeto de feed de notícias desenvolvido como parte do programa Ignite da Rocketseat. Este projeto tem como objetivo criar uma aplicação web responsiva e interativa, onde os usuários podem visualizar, curtir e comentar publicações em um feed de notícias.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1. **Clone o repositório**:
+   ```bash
+   git clone https://github.com/seu-usuario/ignite-timer.git
+2. **Entre na pasta do projeto**;
+   ```bash
+   cd ignite-timer
+3. **Instale as dependências**;
+   ```bash
+   npm install
+4. **Rode o projeto**;
+   ```bash
+   npm run dev
+4. **Agora é só aproveitar e fazer suas alterações 😊**;
+## Tecnologias Utilizadas
 
-## Expanding the ESLint configuration
+<div align="left"> <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" /> <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" /> <img src="https://img.shields.io/badge/Vite-B73BFE?style=for-the-badge&logo=vite&logoColor=FFD62E" alt="Vite" /> <img src="https://img.shields.io/badge/Styled--Components-DB7093?style=for-the-badge&logo=styled-components&logoColor=white" alt="Styled Components" /> <img src="https://img.shields.io/badge/React_Hook_Form-EC5990?style=for-the-badge&logo=reacthookform&logoColor=white" alt="React Hook Form" /> <img src="https://img.shields.io/badge/Zod-5F43DC?style=for-the-badge&logoColor=white" alt="Zod" /> <img src="https://img.shields.io/badge/Phosphor_Icons-000000?style=for-the-badge&logoColor=white" alt="Phosphor Icons" /> </div>
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+<hr/>
 
-- Configure the top-level `parserOptions` property like this:
+## Desktop
+<div align="center">
+   <img src="https://github.com/user-attachments/assets/698e2ad2-2ffc-4de1-b88d-020776fecd83" width="700px"/>
+   <img src="https://github.com/user-attachments/assets/698e2ad2-2ffc-4de1-b88d-020776fecd83" width="700px"/>
+</div>
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
