@@ -12,7 +12,7 @@ O **Ignite Timer** é um projeto de cronômetro desenvolvido como parte do progr
    cd ignite-timer
 3. **Instale as dependências**;
    ```bash
-   npm install
+   npm install ou yarn install
 4. **Rode o projeto**;
    ```bash
    npm run dev
