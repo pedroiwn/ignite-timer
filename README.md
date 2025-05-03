@@ -25,8 +25,8 @@ O **Ignite Feed** é um projeto de feed de notícias desenvolvido como parte do 
 
 ## Desktop
 <div align="center">
-   <img src="https://github.com/user-attachments/assets/698e2ad2-2ffc-4de1-b88d-020776fecd83" width="700px"/>
-   <img src="https://github.com/user-attachments/assets/698e2ad2-2ffc-4de1-b88d-020776fecd83" width="700px"/>
+   <img src="https://github.com/user-attachments/assets/d2782c23-bc7f-4c6d-9d36-8e2cd864f9c9" width="700px" />
+   <img src="https://github.com/user-attachments/assets/46adbae0-3f91-4706-91e3-24357fed8673" width="700px"/>
 </div>
 
 
