@@ -2,7 +2,7 @@
 
 ![Ignite Feed](https://img.shields.io/badge/status-active-brightgreen) 
 
-O **Ignite Feed** é um projeto de feed de notícias desenvolvido como parte do programa Ignite da Rocketseat. Este projeto tem como objetivo criar uma aplicação web responsiva e interativa, onde os usuários podem visualizar, curtir e comentar publicações em um feed de notícias.
+O **Ignite Timer** é um projeto de cronômetro desenvolvido como parte do programa Ignite da Rocketseat. O objetivo é aplicar conceitos avançados de React, como gerenciamento de estado com Context API, hooks personalizados e controle de formulários com validações, em uma aplicação prática de ciclos focados em produtividade.
 
 1. **Clone o repositório**:
    ```bash
