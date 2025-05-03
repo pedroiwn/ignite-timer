@@ -1,4 +1,4 @@
-# Ignite Feed
+# Ignite Timer
 
 ![Ignite Feed](https://img.shields.io/badge/status-active-brightgreen) 
 
